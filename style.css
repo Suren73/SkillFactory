@@ -175,8 +175,6 @@ p {
 	margin-right: 16px;
 }
 
-.features__item-content {}
-
 .features__item-title {
 	margin-bottom: 14px;
 	font-weight: 700;
@@ -241,10 +239,19 @@ p {
 	color: #fff;
 }
 
-.footer__social-list {
+.footer__socials-list {
 	display: flex;
 }
 
-.footer__social-item+.footer__social-item {
+.footer__socials-image {
+	border: none;
+	border-radius: 50%;
+}
+
+.footer__socials-item+.footer__socials-item {
 	margin-left: 20px;
+}
+
+.footer__socials-link {
+	text-decoration: none;
 }
