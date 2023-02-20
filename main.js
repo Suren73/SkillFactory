@@ -37,3 +37,15 @@ HERO_DOTS.forEach((dot, index) => dot.addEventListener('click', event => {
 	HERO_TITLE.textContent = HERO_TITLES[index];
 	HERO_SUBTITLE.textContent = HERO_SUBTITLES[index];
 }));
+
+const FEATURE_NAVS = document.querySelectorAll('.features__nav-item');
+const FEATURE_TABS = document.querySelectorAll('.features__item');
+// console.log(FEATURE_TABS);
+// console.log(FEATURE_NAVS);
+
+FEATURE_NAVS.forEach((nav, index) => nav.addEventListener('click', event => {
+	FEATURE_NAVS.forEach(el => el.classList.remove('active'));
+	FEATURE_TABS.forEach(el => el.classList.remove('active'));
+	nav.classList.add('active');
+	FEATURE_TABS[index].classList.add('active');
+}));
