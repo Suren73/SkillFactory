@@ -185,8 +185,6 @@ p {
 	display: flex;
 	margin-bottom: 32px;
 	position: relative;
-	/* justify-content: flex-start; */
-	/* border-bottom: 2px solid #E5E5E5; */
 }
 
 .features__nav::after {
@@ -207,7 +205,6 @@ p {
 	font-size: 24px;
 	line-height: 44px;
 	color: rgba(66, 74, 87, 0.5);
-	/* border-bottom: 2px solid #e5e5e5; */
 }
 
 
